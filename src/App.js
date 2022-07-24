@@ -5,7 +5,7 @@ function App() {
   const [count, setCount] = useState(22)
 
   const plus = (n) => {
-    setCount(count + n)
+      setCount(count => count + n)
   };
 
   return (
